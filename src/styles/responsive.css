@@ -1,0 +1,273 @@
+@media screen and (min-width: 375px) {
+  .card {
+    width: 325px;
+    margin: 30px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .card {
+    width: 365px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 499px) {
+  .nav {
+    z-index: 10;
+    background-color: #8b0000;
+    opacity: 0.9;
+    width: 300px;
+    position: absolute;
+
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+
+    transition: transform 0.3s ease;
+  }
+
+  .open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: fixed;
+  }
+
+  .nav-item {
+    display: list-item;
+    width: 100%;
+    text-align: left;
+  }
+
+  .card {
+    width: 440px;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  .header-menu {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header-inner h1 {
+    font-size: 29px;
+    margin-left: 10px;
+    margin-top: -8px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-inline: 9px;
+  }
+
+  .nav-item {
+    margin-right: 8px;
+  }
+
+  .content h1 {
+    font-size: 43px;
+  }
+  .card {
+    width: 440px;
+  }
+  .review-title h2 {
+    font-size: 40px;
+  }
+   .right span {
+  font-size: 25px;
+}
+  .right p {
+  font-size: 20px;
+}
+}
+
+@media screen and (min-width: 550px) {
+  .header-inner h1 {
+    font-size: 30px;
+    margin-left: 28px;
+  }
+
+  .nav-list {
+    margin-inline: 30px;
+  }
+
+  .nav-item {
+    margin-right: 8px;
+  }
+  .card {
+    width: 470px;
+  }
+
+  footer {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .header-inner h1 {
+    font-size: 34px;
+    margin-left: 28px;
+  }
+
+  .nav-list {
+    margin-inline: 60px;
+  }
+
+  .nav-item {
+    margin-right: 8px;
+  }
+
+  .card {
+    width: 560px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 16px;
+    margin-block: 35px;
+  }
+  .card {
+    width: 320px;
+    margin: 10px;
+  }
+  .review-title h2 {
+    font-size: 40px;
+  }
+  .card-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 16px;
+    margin-block: 35px;
+  }
+  .name {
+    font-size: 55px;
+  }
+  .right span {
+  font-size: 28px;
+}
+.right p {
+  font-size: 22px;
+}
+  .des span {
+  font-size: 28px;
+}
+.des p {
+  font-size: 22px;
+}
+
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 350px;
+  }
+
+  .nav-list {
+    margin-inline: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: 370px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .card {
+    width: 390px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header-inner h1 {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+
+  .nav-list {
+    margin-inline: 130px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
+    width: 270px;
+  }
+  .card-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media screen and (min-width: 950px) {
+  .card {
+    width: 290px;
+  }
+    .left, .right {
+    width: 50%;
+    padding: 20px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main_img img {
+  margin-top: 30px;
+  height: 500px;
+}
+  
+}
+
+@media only screen and (max-width: 1199px) {
+  .hero {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    min-width: 1000px;
+  }
+  .header-inner h1 {
+    font-size: 34px;
+    margin-left: 150px;
+  }
+
+  .nav-list {
+    margin-inline: 380px;
+  }
+
+  .nav-item {
+    margin-left: -70px;
+    margin-bottom: 4px;
+  }
+  .card {
+    width: 320px;
+  }
+  .detail-page {
+    padding-inline: 50px;
+  }
+}
